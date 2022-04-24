@@ -18,6 +18,7 @@
     "@babel/core": "^7.14.0",
     "@babel/preset-env": "^7.16.4",
     "@babel/preset-react": "^7.13.13",
+    "@imaginary-cloud/prettier-config": "^1.0.0",
     "@typescript-eslint/eslint-plugin": "^4.22.1",
     "@typescript-eslint/parser": "^4.33.0",
     "babel-jest": "^27.4.2",
@@ -43,8 +44,9 @@
     "regenerator-runtime": "^0.13.9"
   },
   "resolutions": {
-     "@babel/preset-env": "7.13.8"
+    "@babel/preset-env": "7.13.8"
   },
+  "prettier": "@imaginary-cloud/prettier-config",
   "jest": {
     "projects": [
       {
